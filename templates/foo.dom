@@ -1,0 +1,3 @@
+<div>
+    <h1>Hi {{model.name}}!</h1>
+</div>
