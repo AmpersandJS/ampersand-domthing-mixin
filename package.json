@@ -10,10 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "ampersand-state": "^4.2.3",
-    "domthing": "0.0.2"
+    "domthing": "0.0.2",
+    "beefy": "^1.1.0"
   },
   "dependencies": {
-    "ampersand-view": "^4.x.x",
-    "beefy": "^1.1.0"
+    "ampersand-view": "^4.x.x"
   }
 }
