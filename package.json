@@ -14,6 +14,6 @@
     "beefy": "^1.1.0"
   },
   "dependencies": {
-    "ampersand-view": "^4.x.x"
+    "ampersand-view": "^5.0.0"
   }
 }

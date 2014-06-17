@@ -5,13 +5,14 @@ module.exports = {
         AmpersandView.prototype.renderWithTemplate.apply(this, arguments);
         var self = this;
 
-        if (this.el && typeof this.el.update === 'function') {
-            this.model.on('all', function (name, _, value) {
+        this.on('all', function (name, _, value) {
+            if (self.el && typeof self.el.update === 'function') {
                 if (name.match(/^change:/)) {
-                    self.el.update('model.' + name.split(':')[1], value);
+                    self.el.update(name.split(':')[1], value);
                 }
-            });
-        }
+            }
+        });
+
         return this;
     }
 };
