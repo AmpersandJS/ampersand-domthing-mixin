@@ -1,7 +1,7 @@
 {
   "name": "ampersand-domthing-mixin",
   "description": "A mixin for AmpersandView that makes data binding between your models and domthing templates happen automatically.",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "dependencies": {
     "ampersand-view": "^6.0.0"
   },
