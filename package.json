@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "beefy example.js --cwd example --open -- -t domthingify"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "ampersand-state": "^4.2.3",
-    "domthing": "0.0.2",
+    "domthing": "^0.1.0",
+    "domthingify": "^0.1.0",
     "beefy": "^1.1.0"
   },
   "dependencies": {
