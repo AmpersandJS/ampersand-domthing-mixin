@@ -1,4 +1,4 @@
-var domthingMixin = require('./index');
+var domthingMixin = require('../index');
 
 var View = require('ampersand-view');
 var Model = require('ampersand-state');
@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var model = new User({name: 'Phil'});
 
     setInterval(function () {
-        console.log(model.name);
         if (model.name === 'Phil') {
             model.name = 'Marcus';
         } else {
