@@ -1,7 +1,7 @@
 {
   "name": "ampersand-domthing-mixin",
   "version": "0.0.3",
-  "description": "",
+  "description": "A mixin for AmpersandView that makes data binding between your models and domthing templates happen automatically.",
   "main": "index.js",
   "scripts": {
     "start": "beefy example.js --cwd example --open -- -t domthingify"
@@ -15,6 +15,6 @@
     "beefy": "^1.1.0"
   },
   "dependencies": {
-    "ampersand-view": "^5.0.0"
+    "ampersand-view": "^6.0.0"
   }
 }
