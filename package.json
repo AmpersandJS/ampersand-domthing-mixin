@@ -11,7 +11,7 @@
     "domthing": "^0.1.0",
     "domthingify": "^0.1.0"
   },
-  "license": "ISC",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "start": "beefy example.js --cwd example --open -- -t domthingify"
