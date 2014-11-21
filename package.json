@@ -8,8 +8,8 @@
   "devDependencies": {
     "ampersand-state": "^4.2.3",
     "beefy": "^1.1.0",
-    "domthing": "^0.1.0",
-    "domthingify": "^0.1.0"
+    "domthing": "^0.3.1",
+    "domthingify": "^0.2.0"
   },
   "license": "MIT",
   "main": "index.js",
