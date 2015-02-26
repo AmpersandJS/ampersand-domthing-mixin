@@ -11,6 +11,10 @@
     "domthing": "^0.3.1",
     "domthingify": "^0.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmpersandJS/ampersand-domthing-mixin"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": {
