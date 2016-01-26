@@ -1,3 +1,7 @@
+## Notice: since domthing is not under active development, this mixin is effectively deprecated. If you are interested in maintaining domthing, file an issue on the repo http://github.com/latentflip/domthing.
+
+---
+
 # Ampersand Domthing Mixin
 
 This is a mixin for [AmpersandView](http://github.com/ampersandjs/ampersand-view)s that makes data binding between your models and domthing templates happen automatically.
